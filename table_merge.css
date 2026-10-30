@@ -1,0 +1,6 @@
+/* Efek hover saat mouse menyentuh kotak sel tabel */
+th:hover, td:hover {
+    background-color: cyan !important; /* Warna saat di-hover */
+    color: black !important;             /* Warna tulisan saat di-hover */
+    cursor: pointer;                     /* Mengubah kursor jadi tangan kecil */
+}

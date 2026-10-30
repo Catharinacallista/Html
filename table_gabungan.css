@@ -1,0 +1,20 @@
+table, th, td{
+    border: 1px solid cornflowerblue;
+}
+table{
+    width: 50%;
+}
+th{
+    height: 40px;
+    padding: 2px;
+    background-color: cornflowerblue;
+}
+tr{
+    background-color: cornsilk;
+}
+tr:nth-last-child(even){
+    background-color: cornflowerblue;
+}
+tr:hover{
+    background-color: palevioletred;
+}
